@@ -1,0 +1,39 @@
+{
+  "name": "app",
+  "version": "1",
+  "license": "MIT",
+  "dependencies": {
+    "@reduxjs/toolkit": "last",
+    "formik": "last",
+    "react": "last",
+    "react-dom": "last",
+    "react-redux": "last",
+    "react-scripts": "last",
+    "react-table": "last",
+    "yup": "last"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
